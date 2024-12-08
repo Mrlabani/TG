@@ -26,6 +26,6 @@ func start(ctx *ext.Context, u *ext.Update) error {
 		ctx.Reply(u, "You are not allowed to use this bot.", nil)
 		return dispatcher.EndGroups
 	}
-	ctx.Reply(u, "Hi **%(first_name)s**, send me a file to instantly generate file links, Join @noobprivate for updates", nil)
+	ctx.Reply(u, "Hɪ 👋 sᴇɴᴅ ᴍᴇ ᴀ ғɪʟᴇ ᴛᴏ ɪɴsᴛᴀɴᴛʟʏ ɢᴇɴᴇʀᴀᴛᴇ ғɪʟᴇ ʟɪɴᴋs !", nil)
 	return dispatcher.EndGroups
 }
